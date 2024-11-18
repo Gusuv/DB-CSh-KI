@@ -5,8 +5,6 @@ CREATE TABLE  IF NOT EXISTS Users
 
     id  INTEGER PRIMARY KEY AUTOINCREMENT,
 
-    first_last TEXT NOT NULL,
-    /*Имя и фамилия */
 
     email TEXT NOT NULL UNIQUE,
 
